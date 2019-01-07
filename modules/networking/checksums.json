@@ -1,0 +1,8 @@
+{
+  "LICENSE": "67c79041d8aa1ec53dfeaad81539d3fa",
+  "manifests/init.pp": "a9ee4874c459cd04713c1f2043ddcda4",
+  "metadata.json": "13bb9e089d0f48fd171024ba740443b0",
+  "readme.md": "c9ac4844850e35f99ed48ce53b56c077",
+  "templates/etc/iftab.erb": "6be31f5c293b939354e2d43d199677ae",
+  "templates/etc/network/interfaces.erb": "fcf3319c377a9ae40f7b498086f23f77"
+}
