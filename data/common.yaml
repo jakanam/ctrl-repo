@@ -1,2 +1,20 @@
 ---
-message: "This node is using common data"
+users:
+  tom:
+    ensure: present
+    uid: 5011
+    groups:
+      - wheel
+      #- sudo
+    comment: "user from puppet"
+    managehome: true
+    #password: '{password hash}'
+    shell:  /bin/bash
+    #ssh_authorized_keys:
+     # userkey:
+     #   type: 'ssh-rsa'
+     #   key:  '{public key hash}'
+notify: "This node is using common data"
+
+classes:
+   - role::default
