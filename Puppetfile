@@ -18,7 +18,7 @@ forge 'https://forge.puppet.com'
  #  :git	   => 'https://github.com/jakanam/puppet-tr-module-tomcat.git'
   #:commit => ''
 mod 'alertlogic-agents',
-   :git    => 'https://github.com/alertlogic/alertlogic-agents.git'
+   :git    => 'https://github.com/alertlogic/alertlogic-agents.git',
    :commit => '4112acde2c8b002452935513c7526c00949fb446'
 
 #mod 'base',
