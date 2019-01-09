@@ -1,12 +1,5 @@
 forge 'https://forge.puppet.com'
 
-#These are from the tut: https://techpunch.co.uk/development/how-to-build-a-puppet-repo-using-r10k-with-roles-and-profiles
-mod 'mthibaut/users'
-mod 'puppetlabs/concat'
-mod 'puppetlabs/firewall'
-mod 'puppetlabs/stdlib'
-mod 'saz/locales'
-
 #All the below are examples:
 #-------------------------------
 
@@ -24,8 +17,9 @@ mod 'saz/locales'
 #mod 'tomcat',
  #  :git	   => 'https://github.com/jakanam/puppet-tr-module-tomcat.git'
   #:commit => ''
-#mod 'java',
- #  :git    => 'https://github.com/jakanam/puppet-tr-module-java.git'
+mod 'alertlogic-agents',
+   :git    => 'https://github.com/alertlogic/alertlogic-agents.git'
+   :commit => '4112acde2c8b002452935513c7526c00949fb446'
 
 #mod 'base',
 #   :git    => 'https://github.com/jakanam/puppet-tr-module-base.git'
