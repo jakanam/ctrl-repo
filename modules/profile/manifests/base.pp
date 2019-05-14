@@ -7,13 +7,13 @@
 
 # Config common to all nodes
 class profile::base {
-    # common users
-   $user_accounts = hiera('users')
-   create_resources(user, $user_accounts)  
-   #users { 'common': }
+   # common users
+   # $user_accounts = hiera('users')
+   # create_resources(user, $user_accounts)  
+   users { sysadmins: }
 
     # sshd config
-    include profile::ssh::server
+    #include profile::ssh::server
 
     # base firewall config
    ##### include profile::firewall::setup
